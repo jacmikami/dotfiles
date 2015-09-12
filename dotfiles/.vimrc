@@ -17,6 +17,11 @@ let g:neobundle_default_git_protocol='https'
 NeoBundleFetch 'Shougo/neobundle.vim'
 " ↓こんな感じが基本の書き方
 NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'vim-jp/vimdoc-ja'
+NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'junegunn/seoul256.vim'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'scrooloose/nerdtree'
 
 " vimrc に記述されたプラグインでインストールされていないものがないかチェックする
 NeoBundleCheck
@@ -28,3 +33,6 @@ syntax on
 "colorscheme jellybeans
 set background=dark
 colorscheme desert
+
+set helplang=ja,en
+
